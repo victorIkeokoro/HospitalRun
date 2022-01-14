@@ -24,7 +24,7 @@ ThreadLocal <ExtentTest> extentTest = new ThreadLocal <ExtentTest> ();
 		
 		test= extent.createTest(result.getMethod().getMethodName());
 		extentTest.set(test);
-		logger.info(result.getMethod().getMethodName()+"has started");
+		logger.info(result.getMethod().getMethodName()+ " Test" + " has started");
 	}
 
 	@Override
@@ -32,7 +32,7 @@ ThreadLocal <ExtentTest> extentTest = new ThreadLocal <ExtentTest> ();
 		// TODO Auto-generated method stub
 		
 		extentTest.get().log(Status.PASS, "Test Passed!!!");
-		logger.info(result.getMethod().getMethodName()+"Passed!!");
+		logger.info(result.getMethod().getMethodName()+ " Test" + " Passed!!");
 	}
 
 	@Override
@@ -40,7 +40,7 @@ ThreadLocal <ExtentTest> extentTest = new ThreadLocal <ExtentTest> ();
 		// TODO Auto-generated method stub
 		
 		extentTest.get().fail(result.getThrowable());
-		logger.info(result.getMethod().getMethodName()+"Failed");
+		logger.info(result.getMethod().getMethodName()+  " Test" + " Failed");
 		WebDriver driver=  null;
 		
 		
@@ -74,7 +74,7 @@ ThreadLocal <ExtentTest> extentTest = new ThreadLocal <ExtentTest> ();
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
-		logger.info(result.getMethod().getMethodName()+"Was skipped");
+		logger.info(result.getMethod().getMethodName()+ " Test" + " Was skipped");
 	}
 
 	@Override

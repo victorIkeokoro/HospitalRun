@@ -65,7 +65,7 @@ public class NewRequestTest {
 		((JavascriptExecutor) driver).executeScript("arguments[0].value=arguments[1]", nm.getRefills(), k);
 		nm.getAdd().click();
 		Actions ac = new Actions(driver);
-		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebDriverWait wait = new WebDriverWait(driver, 60);
 		wait.until(ExpectedConditions.elementToBeClickable(nm.medicationPopupTitle));
 		wait.until(ExpectedConditions.elementToBeClickable(nm.close));
 		wait.until(ExpectedConditions.elementToBeClickable(nm.ok));

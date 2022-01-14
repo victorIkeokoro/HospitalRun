@@ -9,3 +9,14 @@
 2022-01-14 03:16:17.417 [TestNG-test=Test-3] INFO  main.Run.Listens - newMedicationPassed!!
 2022-01-14 03:23:03.032 [TestNG-test=Test-4] INFO  main.Run.Listens - newRequestPassed!!
 2022-01-14 03:23:05.964 [main] INFO  main.Run.Listens - Testcases have been executed
+2022-01-14 10:28:33.658 [TestNG-test=Test-5] INFO  main.Run.Listens - logouthas started
+2022-01-14 10:28:33.658 [TestNG-test=Test-1] INFO  main.Run.Listens - loginInvalidhas started
+2022-01-14 10:28:33.658 [TestNG-test=Test-2] INFO  main.Run.Listens - login1has started
+2022-01-14 10:28:33.658 [TestNG-test=Test-4] INFO  main.Run.Listens - newRequesthas started
+2022-01-14 10:28:33.658 [TestNG-test=Test-3] INFO  main.Run.Listens - newMedicationhas started
+2022-01-14 10:29:20.240 [TestNG-test=Test-1] INFO  main.Run.Listens - loginInvalidPassed!!
+2022-01-14 10:29:56.118 [TestNG-test=Test-3] INFO  main.Run.Listens - newMedicationPassed!!
+2022-01-14 10:30:00.348 [TestNG-test=Test-2] INFO  main.Run.Listens - login1Passed!!
+2022-01-14 10:30:01.478 [TestNG-test=Test-5] INFO  main.Run.Listens - logoutPassed!!
+2022-01-14 10:37:04.043 [TestNG-test=Test-4] INFO  main.Run.Listens - newRequestFailed
+2022-01-14 10:37:08.370 [main] INFO  main.Run.Listens - Testcases have been executed
