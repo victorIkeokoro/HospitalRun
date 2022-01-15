@@ -3,7 +3,7 @@ Reporting tool : Extent report and Surefire Report
 Logging tool: Log4j
 
 --------------------------------------------------------------------
-Process of executing om command line
+Process of executing on command line
 
 
 ------------------------------------------------------
