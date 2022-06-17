@@ -18,7 +18,7 @@ Edit the path variable and add MAVEN_HOME\bin to it. Use this as it is- "%MAVEN_
 Save the changes
 Check the installation by running the command "mvn -version" in CMD.
 ----------------------------------------------------------------------
-2) Navigate to project directoryon command prompt
+2) Navigate to project directory on command prompt
 3) The project comes with it's dependency in it's pom.xml file
 4) Go to the src/main/java-> main.Run->Base.java file edit the "String browsername = prop.getProperty("browser"); Line 35" 
  change the "prop" to "System" -->>"String browsername= System.getProperty("browser");" 

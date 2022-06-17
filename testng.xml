@@ -9,14 +9,23 @@
 
   <test thread-count="5"  parallel="classes" name="Test">
     <classes >
-     <class name="testCases.LoginInvalidTest"/>
+  
  
-          <class name="testCases.LoginTest"/>
-   
-     <class name="testCases.NewMedicationTest"/>
-     <class name="main.Run.Base"/>
- <class name="testCases.NewRequestTest"/>
-      <class name="testCases.LogoutTest"/>
+       <class name="testCases.TC_001"/>
+       <class name="testCases.TC_002"/>
+        <class name="testCases.TC_003"/>
+         <class name="testCases.TC_004"/>
+          <class name="testCases.TC_005"/>
+           <class name="testCases.TC_006"/>
+            <class name="testCases.TC_007"/>
+             <class name="testCases.TC_008"/>
+              <class name="testCases.TC_009"/>
+               <class name="testCases.TC_010"/>
+                <class name="testCases.TC_011"/>
+                 <class name="testCases.TC_012"/>
+                  <class name="testCases.TC_013"/>
+           
+  
        
     </classes>
   </test> <!-- 

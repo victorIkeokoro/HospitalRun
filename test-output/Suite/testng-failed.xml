@@ -6,11 +6,22 @@
   </listeners>
   <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="testCases.NewMedicationTest">
+      <class name="testCases.TC_002">
         <methods>
-          <include name="newMedication"/>
+          <include name="login_TC_002"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- testCases.NewMedicationTest -->
+      </class> <!-- testCases.TC_002 -->
+      <class name="testCases.TC_004">
+        <methods>
+          <include name="login_TC_004"/>
+        </methods>
+      </class> <!-- testCases.TC_004 -->
+      <class name="testCases.TC_006">
+        <methods>
+          <include name="login_TC_005"/>
+        </methods>
+      </class> <!-- testCases.TC_006 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
